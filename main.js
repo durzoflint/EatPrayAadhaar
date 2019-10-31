@@ -13,8 +13,18 @@ $(window).on('load', function () {
 						document.getElementById('aadhaar').style.display = 'block';
 						document.getElementById('aadhaar').className = 'animated fadeInUp';
 						setTimeout(function() {
-							document.getElementById('stamp').style.display = 'inline-block';
-							document.getElementById('stamp').className = 'animated fadeInUp';
+							document.getElementById('tagline').style.display = 'block';
+							document.getElementById('tagline').className = 'animated fadeInUp';
+							document.getElementById('illustration').style.display = 'block';
+							document.getElementById('illustration').className = 'animated fadeInUp';
+							setTimeout(function() {
+								document.getElementById('scroll-down').style.display = 'block';
+								document.getElementById('scroll-down').className = 'col-sm-12 text-center animated fadeInUp';
+								setTimeout(function() {
+									document.getElementById('stuff').style.display = 'block';
+									document.getElementById('stuff').className = 'container animated fadeInUp';
+								}, 1000);
+							}, 1000);
 						}, 1000);
 					}, 1000);
 				}, 1000);

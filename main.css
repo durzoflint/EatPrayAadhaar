@@ -1,10 +1,8 @@
 body {
-	background-color: black;
-	color: white;
 }
 
 .img-resume {
-	height: 100%;
+	padding: 0;
 	width: 100%;
 }
 
@@ -94,6 +92,10 @@ body {
     -webkit-animation-name: fadeInUp;
 }
 
+.content {
+	padding-top: 150px;
+}
+
 #eat {
 	display: none;
 }
@@ -104,20 +106,67 @@ body {
 
 #aadhaar {
 	display: none;
+	color: #FF6584;
+}
+
+#tagline {
+	display: none;
+	margin-top: 25px;
+}
+
+#illustration {
+	display: none;
+	height: 350px;
+}
+
+#scroll-down {
+	display: none;
+	padding-top: 60px;
 }
 
 #stamp {
 	transform: rotate(0deg);
 	color: #D23;
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: 700;
 	border: 0.5rem double #D23;
-	display: none;
+	display: inline-block;
 	padding: 0.25rem 1rem;
-	border-radius: 1rem;
+	border-radius: 0.8rem;
 	font-family: 'Courier';
 	-webkit-mask-image: url('img/grunge.png');
 	-webkit-mask-size: 944px 604px;
 	mix-blend-mode: multiply;
 	-webkit-mask-position: 2rem 3rem;
+}
+
+#stuff {
+	height: 100vh;
+	display: none;
+	padding-top: 150px;
+}
+
+.img-amartya {
+	width: 150px;
+	height: 150px;
+}
+
+.about-amartya {
+	color: #575A89;
+	margin-top: 25px;
+}
+
+@media screen and (max-width: 767px) {
+	.content {
+		padding-top: 10px;
+	}
+
+	.illustration {
+		width: 100%;
+		height: auto;
+	}
+
+	.scroll-down {
+		padding-top: 20px;
+	}
 }
