@@ -114,11 +114,12 @@ body {
 #tagline {
 	display: none;
 	margin-top: 25px;
+	font-size: 18px !important;
 }
 
 #illustration {
 	display: none;
-	height: 350px;
+	width: 100%;
 }
 
 #scroll-down {
@@ -168,7 +169,7 @@ body {
 .essay {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 18px !important;
 }
 
 @media screen and (max-width: 767px) {
