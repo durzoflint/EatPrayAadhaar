@@ -1,4 +1,6 @@
 body {
+	background-color: black;
+	color: white;
 }
 
 .img-resume {
@@ -93,7 +95,7 @@ body {
 }
 
 .content {
-	padding-top: 150px;
+	padding-top: 100px;
 }
 
 #eat {
@@ -141,9 +143,12 @@ body {
 }
 
 #stuff {
-	height: 100vh;
 	display: none;
 	padding-top: 150px;
+}
+
+.amartya {
+	height: 100vh;
 }
 
 .img-amartya {
@@ -154,6 +159,16 @@ body {
 .about-amartya {
 	color: #575A89;
 	margin-top: 25px;
+}
+
+.img-cover {
+	width: 100%;
+}
+
+.essay {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
 }
 
 @media screen and (max-width: 767px) {
